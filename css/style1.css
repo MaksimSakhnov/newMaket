@@ -1,0 +1,180 @@
+button:active, button:focus {
+    outline: none;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+}
+
+
+
+.BlueSelection{
+    color: #5286F8;
+}
+
+.whiteText{
+    color: #FFFFFF;
+}
+
+
+
+
+/*directions section*/
+
+.directions{
+    max-width: 100vw;
+    background-color: black;
+    height: 100%;
+    padding-bottom: 13vh;
+}
+
+.directionsContainer{
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 100%;
+}
+
+.sectionTitle{
+    margin-top: 13vh;
+}
+
+
+.card{
+    margin-top: 10vh;
+    padding: 20px 20px;
+    background-color: black;
+    border-color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 80%;
+
+}
+
+.cardText{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.cardLine{
+    margin-top: 30px;
+    width: 90px;
+    color: #5286F8;
+    background-color: #5286F8;
+    height: 10px;
+    border: none;
+}
+
+
+.cardProfile{
+    margin-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #A2A2A2;
+
+}
+
+.cardButton{
+    max-width: 200px;
+    margin-top: 13px;
+    padding: 13px ;
+    background-color: black;
+    border: 1px solid #FFFFFF;
+}
+
+.CardButtonText{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+/*directions section end*/
+
+.directions1{
+    background-color: black;
+}
+
+
+
+
+/* Слайдер */
+.slider{
+    position: relative;
+}
+
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    visibility: hidden;
+}
+
+.slider .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.slider .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+.slick-slider{
+
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{
+
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{
+
+}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+
+
+

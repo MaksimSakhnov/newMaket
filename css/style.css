@@ -51,7 +51,7 @@ button {
     line-height: calc(30px + 30 * (100vw / 1440));
 
     color: #000000;
-    margin-top: 13vh;
+    margin-top: 10vh;
 }
 
 .introSecondaryText{
@@ -93,9 +93,8 @@ button {
 
 
     margin-top: 10vh;
-
     width: 100%;
-    height: 80px;
+    height: 100%;
     background-color: black;
     border: none;
 
@@ -105,8 +104,8 @@ button {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: calc(22px + 18 * (100vw / 1440));
-    line-height: calc(22px + 18 * (100vw / 1440));
+    font-size: calc(15px + 25 * (100vw / 1440));
+    line-height: calc(15px + 25 * (100vw / 1440));
     /* identical to box height */
 
 
@@ -144,7 +143,8 @@ button {
     background-color: black;
     border-color: white;
     border-radius: 5px;
-
+    width: 100%;
+    height: 80%;
 
 }
 
@@ -183,7 +183,7 @@ button {
 
 .cardButton{
     max-width: 200px;
-    margin-top: 13px;
+    margin-bottom: 13px;
     padding: 13px ;
     background-color: black;
     border: 1px solid #FFFFFF;
@@ -198,6 +198,65 @@ button {
     line-height: 23px;
     color: #FFFFFF;
  }
+
+
+
+/* Слайдер */
+.slider{
+    position: relative;
+    display: none;
+}
+
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    visibility: hidden;
+}
+
+.slider .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.slider .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+.slick-slider{
+
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{
+
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{
+
+}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
 
 /*directions section end*/
 
@@ -345,16 +404,52 @@ button {
         height: 100vh;
 
     }
+
 }
 
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 700px) {
     .intro {
         height: 100%;
     }
 
+    .introMainText{
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .introSecondaryText{
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .mainLogo{
+
+    }
+
+    .mainButton{
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+
+
     .introContainer{
         height: 100%;
         padding-bottom: 20px;
+    }
+
+    .cardsRow{
+        display: none;
+    }
+
+    .slider{
+        display: block;
+    }
+
+    .card{
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
 }
