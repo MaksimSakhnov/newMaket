@@ -318,13 +318,80 @@ button {
 
 /*faq section*/
 
+details summary::-webkit-details-marker {
+  display: none
+}
+
+details > summary {
+  list-style: none;
+}
+
+
+
 .faq{
-    height: 100vh;
+    height: 100%;
     background: #FFFDFD;
 }
 
 .faqContainer{
     height: 100%;
+}
+
+.faqMain{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.faqMainRow{
+    margin-top: 3vh;
+}
+
+.faqAccordion{
+    max-width: 100%;
+    border: 1px solid black;
+    padding: 20px 20px;
+
+    border-radius: 20px;
+}
+
+.faqItemTitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + 25 * (100vw / 1440));
+    line-height: calc(15px + 25 * (100vw / 1440));
+    text-align: left;
+    position: relative;
+}
+
+.faqItemTitle::before{
+    display: block;
+    content: "+";
+    font-size: 40px;
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Добавляем собственный маркер для открытого состояния */
+details[open] summary:before {
+  content: '—';
+}
+
+
+.faqItemBody{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(20px + 15 * (100vw / 1440));
+    line-height: calc(20px + 20 * (100vw / 1440));
+
+    color: #000000;
+    margin-top: 20px;
 }
 
 /*faq section end*/
