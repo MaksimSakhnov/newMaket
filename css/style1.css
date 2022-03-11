@@ -16,6 +16,10 @@ button {
     cursor: pointer;
 }
 
+.bold{
+    font-weight: 700;
+}
+
 
 
 .BlueSelection{
@@ -29,152 +33,145 @@ button {
 
 
 
-/*directions section*/
-
-.directions{
-    max-width: 100vw;
-    background-color: black;
-    height: 100%;
-    padding-bottom: 13vh;
-}
-
-.directionsContainer{
-    padding-left: 2%;
-    padding-right: 2%;
-    height: 100%;
-}
 
 .sectionTitle{
-    margin-top: 13vh;
-}
-
-
-.card{
     margin-top: 10vh;
-    padding: 20px 20px;
-    background-color: black;
-    border-color: white;
-    border-radius: 5px;
-    width: 100%;
-    height: 80%;
-
-}
-
-.cardText{
-
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
-    line-height: 29px;
-
-    color: #FFFFFF;
-}
-
-.cardLine{
-    margin-top: 30px;
-    width: 90px;
-    color: #5286F8;
-    background-color: #5286F8;
-    height: 10px;
-    border: none;
-}
-
-
-.cardProfile{
-    margin-top: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-
-    color: #A2A2A2;
+    font-size: calc(20px + 35 * (100vw / 1440));
+    line-height: calc(20px + 35 * (100vw / 1440));
 
 }
 
-.cardButton{
-    max-width: 200px;
-    margin-top: 13px;
-    padding: 13px ;
-    background-color: black;
-    border: 1px solid #FFFFFF;
-}
-
-.CardButtonText{
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    color: #FFFFFF;
-}
-
-/*directions section end*/
-
-.directions1{
-    background-color: black;
-}
 
 
 
 
-/* Слайдер */
-.slider{
-    position: relative;
-}
-
-.slider .slick-arrow{
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    visibility: hidden;
-}
-
-.slider .slick-dots{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.slider .slick-dots li{
-    list-style: none;
-    margin: 0px 10px;
-}
-
-.slider .slick-dots button{
-    font-size: 0;
-    width: 10px;
-    height: 10px;
+/*howEnter section*/
+.howEnter{
+    width: 100%;
+    height: 100%;
     background-color: #FFFFFF;
-    border-radius: 50%;
 }
 
-.slider .slick-dots li.slick-active button{
-    background-color: transparent;
-    border: 1px solid #FFFFFF;
+.howEnterContainer{
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 100%;
+    margin-bottom: 5vh;
 }
-.slick-slider{
 
-}
-/* Слайдер запущен */
-.slick-slider.slick-initialized{
-
-}
-/* Слайдер с точками */
-.slick-slider.slick-dotted{
-
-}
-/* Ограничивающая оболочка */
-.slick-list {
-    overflow: hidden;
-}
-/* Лента слайдов */
-.slick-track{
-    display: flex;
+.howEnterLine{
+    margin-top: 24px;
+    width: 15vw;
+    height: 2px;
 }
 
 
+.LiNumberText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(100px + 30 * (100vw / 1440));
+    line-height: calc(100px + 30 * (100vw / 1440));
+}
 
+.LiHeaderText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(20px + 30 * (100vw / 1440));
+    line-height: calc(20px + 30 * (100vw / 1440));
+}
+
+.liMainText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + 20 * (100vw / 1440));
+    line-height: calc(25px + 25 * (100vw / 1440));
+    margin-top: 10px;
+}
+
+
+
+/*howEnter section end*/
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1440px) {
+    .intro {
+        height: 100vh;
+    }
+
+    .introContainer{
+        height: 100vh;
+
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .intro {
+        height: 100vh;
+    }
+
+    .introContainer{
+        height: 100vh;
+
+    }
+
+}
+
+
+@media all and (max-width: 700px) {
+    .intro {
+        height: 100%;
+    }
+
+    .introMainText{
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .introSecondaryText{
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .mainLogo{
+
+    }
+
+    .mainButton{
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+
+
+    .introContainer{
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    .cardsRow{
+        display: none;
+    }
+
+    .slider{
+        display: block;
+    }
+
+    .card{
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+    }
+}

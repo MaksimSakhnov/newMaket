@@ -133,7 +133,7 @@ button {
 }
 
 .sectionTitle{
-    margin-top: 13vh;
+    margin-top: 10vh;
 }
 
 
@@ -265,22 +265,52 @@ button {
 /*howEnter section*/
 .howEnter{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #FFFFFF;
 }
 
 .howEnterContainer{
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
     height: 100%;
+    margin-bottom: 5vh;
 }
 
 .howEnterLine{
     margin-top: 24px;
-    width: 300px;
+    width: 15vw;
     height: 2px;
 }
 
+
+.LiNumberText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(100px + 30 * (100vw / 1440));
+    line-height: calc(100px + 30 * (100vw / 1440));
+}
+
+.LiHeaderText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(20px + 30 * (100vw / 1440));
+    line-height: calc(20px + 30 * (100vw / 1440));
+}
+
+.liMainText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + 15 * (100vw / 1440));
+    line-height: calc(25px + 25 * (100vw / 1440));
+    margin-top: 10px;
+}
+
+
+
+/*howEnter section end*/
 
 
 /*howEnter section end*/
