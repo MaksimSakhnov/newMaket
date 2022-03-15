@@ -53,6 +53,43 @@ button {
 
 
 
+.introSubPages{
+    height: 100%;
+    background-color: black;
+
+}
+
+.navBar{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid black;
+    height: 90px;
+    padding:  5vh 0 5vh;
+    position: relative;
+}
+
+.navRow{
+
+}
+
+.arrowBlock{
+    height: 100%;
+
+}
+
+.arrowBack{
+
+}
+
+.navText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #000000;
+}
 
 
 
