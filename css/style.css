@@ -88,10 +88,8 @@ button {
 }
 
 .mainButton{
-    padding: 10px 0;
+    padding: 0px 0;
     text-align: center;
-
-
     margin-top: 10vh;
     width: 100%;
     height: 100%;
@@ -123,6 +121,7 @@ button {
     max-width: 100vw;
     background-color: black;
     height: 100%;
+    padding-top: 10vh;
     padding-bottom: 13vh;
 }
 
@@ -133,7 +132,7 @@ button {
 }
 
 .sectionTitle{
-    margin-top: 10vh;
+
 }
 
 
@@ -225,6 +224,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding:0px;
 
 }
 
@@ -273,14 +273,15 @@ button {
 .howEnter{
     width: 100%;
     height: 100%;
-    background-color: #FFFFFF;
+    background-color: #000000;
 }
 
 .howEnterContainer{
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
     height: 100%;
-    margin-bottom: 5vh;
+    background-color: #FFFFFF;
+    padding-top: 10vh;
 }
 
 .howEnterLine{
@@ -294,15 +295,14 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: calc(100px + 30 * (100vw / 1440));
-    line-height: calc(100px + 30 * (100vw / 1440));
+    font-size: calc(25px + 30 * (100vw / 1440));
+    line-height: calc(25px + 30 * (100vw / 1440));
 }
-
 .LiHeaderText{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: calc(20px + 30 * (100vw / 1440));
+    font-size: calc(25px + 30 * (100vw / 1440));
     line-height: calc(20px + 30 * (100vw / 1440));
 }
 
@@ -337,11 +337,18 @@ details > summary {
 
 .faq{
     height: 100%;
-    background: #FFFDFD;
+    background: #000000;
+    background-color: #000000;
+
 }
 
 .faqContainer{
     height: 100%;
+    background-color: #FFFFFF;
+    padding-top: 3vh;
+    padding-bottom:10vh;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .faqMain{
@@ -349,7 +356,6 @@ details > summary {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .faqMainRow{
