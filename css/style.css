@@ -32,6 +32,8 @@ button {
     padding-right: 2%;
     height: 100vh;
     background-color: white;
+    padding-bottom: 12%;
+    min-height:750px;
 }
 
 .intro{
@@ -62,6 +64,7 @@ button {
     line-height: calc(20px + 20 * (100vw / 1440));
     margin-top: 10vh;
     color: #000000;
+    margin-bottom: 12vh;
 
 }
 
@@ -79,22 +82,22 @@ button {
     margin: 0 auto;
     max-width:100%;
     height:auto;
+    margin-bottom: 0vh;
 
 }
 
 .introSecondaryTextImgRow{
-    margin-top: 10vh;
 
 }
 
-.mainButton{
-    padding: 0px 0;
+.introMainButton{
+    margin-top: 2vh;
     text-align: center;
-    margin-top: 10vh;
     width: 100%;
     height: 100%;
     background-color: black;
     border: none;
+    padding: 20px;
 
 }
 
@@ -132,7 +135,7 @@ button {
 }
 
 .sectionTitle{
-
+    margin-bottom: 2vh;
 }
 
 
@@ -221,6 +224,7 @@ button {
 }
 
 .slider .slick-dots{
+    margin-top: 2vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,6 +296,7 @@ button {
 
 
 .LiNumberText{
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -306,6 +311,14 @@ button {
     line-height: calc(20px + 30 * (100vw / 1440));
 }
 
+.LiCaptionText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + 30 * (100vw / 1440));
+    line-height: calc(10px + 30 * (100vw / 1440));
+}
+
 .liMainText{
     font-family: 'Roboto';
     font-style: normal;
@@ -314,6 +327,7 @@ button {
     line-height: calc(25px + 25 * (100vw / 1440));
     margin-top: 10px;
 }
+
 
 
 
@@ -402,7 +416,6 @@ details[open] summary:before {
     font-weight: 300;
     font-size: calc(20px + 15 * (100vw / 1440));
     line-height: calc(20px + 20 * (100vw / 1440));
-
     color: #000000;
     margin-top: 20px;
 }
@@ -491,7 +504,13 @@ details[open] summary:before {
 
 
 
-
+.hide-on-mobile { display: inline; }
+/* Smartphone Portrait and Landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .hide-on-mobile {
+       display: none;
+    }
+}
 
 
 @media all and (max-width: 1440px) {

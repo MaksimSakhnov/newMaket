@@ -35,7 +35,7 @@ button {
 
 
 .sectionTitle{
-    margin-top: 10vh;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -49,7 +49,7 @@ button {
 
 
 
-/*anotherQuestions sections*/
+/*introSubPages sections*/
 
 
 
@@ -92,10 +92,116 @@ button {
 }
 
 
+.introSubPagesBlock{
+    padding: 0 3% 0 3%;
+    height: 100%;
+    background-color: #FFFFFF;
+
+    padding-bottom: 10vh;
+
+}
+
+.introSubPagesText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    margin-top: 10vh;
+}
+
+.introSubPagesSecondText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 10vh;
+    color: #A2A2A2;
+}
+
+/*intro SubPages section end*/
+
+/*DetailsSubPages*/
+
+.detailsSubPages{
+    padding-top: 10vh;
+    height: 100%;
+    background-color: black;
+    padding-bottom: 10vh;
+}
+
+.detailCon{
+    background-color: black;
+    height: 100%;
+    padding: 0 3% 0 3%;
+
+}
+
+.detailMain{
+    margin-top: 5vh;
+
+}
+
+.detailsTitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.rowTitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.verticalLineBlock{
+    border-right: 2px solid #FFFFFF;
+
+}
+
+.rowBody{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    margin-left: 1%;
+    color: #FFFFFF;
+    padding-left: 4vw;
+    padding-bottom: 4vh;
+}
+
+.noLine{
+    border: none;
+}
+
+/*DetailsSubPages section end*/
 
 
+/*questionsToStudents section*/
 
+.questionsToStudents{
+    background-color: black;
+    height: 100%;
+}
 
+.questionsToStudentsCon{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #FFFFFF;
+    height: 100%;
+
+}
+
+/*questionsToStudents section end*/
 
 
 
