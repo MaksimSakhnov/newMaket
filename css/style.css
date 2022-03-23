@@ -32,6 +32,8 @@ button {
     padding-right: 2%;
     height: 100vh;
     background-color: white;
+    padding-bottom: 12%;
+    min-height:750px;
 }
 
 .intro{
@@ -62,6 +64,7 @@ button {
     line-height: calc(20px + 20 * (100vw / 1440));
     margin-top: 10vh;
     color: #000000;
+    margin-bottom: 12vh;
 
 }
 
@@ -79,24 +82,22 @@ button {
     margin: 0 auto;
     max-width:100%;
     height:auto;
+    margin-bottom: 0vh;
 
 }
 
 .introSecondaryTextImgRow{
-    margin-top: 10vh;
 
 }
 
-.mainButton{
-    padding: 10px 0;
+.introMainButton{
+    margin-top: 2vh;
     text-align: center;
-
-
-    margin-top: 10vh;
     width: 100%;
     height: 100%;
     background-color: black;
     border: none;
+    padding: 20px;
 
 }
 
@@ -123,6 +124,7 @@ button {
     max-width: 100vw;
     background-color: black;
     height: 100%;
+    padding-top: 10vh;
     padding-bottom: 13vh;
 }
 
@@ -133,7 +135,7 @@ button {
 }
 
 .sectionTitle{
-    margin-top: 10vh;
+    margin-bottom: 2vh;
 }
 
 
@@ -222,9 +224,11 @@ button {
 }
 
 .slider .slick-dots{
+    margin-top: 2vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding:0px;
 
 }
 
@@ -273,14 +277,15 @@ button {
 .howEnter{
     width: 100%;
     height: 100%;
-    background-color: #FFFFFF;
+    background-color: #000000;
 }
 
 .howEnterContainer{
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
     height: 100%;
-    margin-bottom: 5vh;
+    background-color: #FFFFFF;
+    padding-top: 10vh;
 }
 
 .howEnterLine{
@@ -295,16 +300,23 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: calc(100px + 30 * (100vw / 1440));
-    line-height: calc(100px + 30 * (100vw / 1440));
+    font-size: calc(25px + 30 * (100vw / 1440));
+    line-height: calc(25px + 30 * (100vw / 1440));
 }
-
 .LiHeaderText{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: calc(20px + 30 * (100vw / 1440));
+    font-size: calc(25px + 30 * (100vw / 1440));
     line-height: calc(20px + 30 * (100vw / 1440));
+}
+
+.LiCaptionText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + 30 * (100vw / 1440));
+    line-height: calc(10px + 30 * (100vw / 1440));
 }
 
 .liMainText{
@@ -315,6 +327,7 @@ button {
     line-height: calc(25px + 25 * (100vw / 1440));
     margin-top: 10px;
 }
+
 
 
 
@@ -338,11 +351,18 @@ details > summary {
 
 .faq{
     height: 100%;
-    background: #FFFDFD;
+    background: #000000;
+    background-color: #000000;
+
 }
 
 .faqContainer{
     height: 100%;
+    background-color: #FFFFFF;
+    padding-top: 3vh;
+    padding-bottom:10vh;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .faqMain{
@@ -350,7 +370,6 @@ details > summary {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .faqMainRow{
@@ -397,7 +416,6 @@ details[open] summary:before {
     font-weight: 300;
     font-size: calc(20px + 15 * (100vw / 1440));
     line-height: calc(20px + 20 * (100vw / 1440));
-
     color: #000000;
     margin-top: 20px;
 }
@@ -486,7 +504,13 @@ details[open] summary:before {
 
 
 
-
+.hide-on-mobile { display: inline; }
+/* Smartphone Portrait and Landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .hide-on-mobile {
+       display: none;
+    }
+}
 
 
 @media all and (max-width: 1440px) {
