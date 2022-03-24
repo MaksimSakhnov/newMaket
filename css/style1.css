@@ -85,9 +85,9 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 47px;
-
+    font-size: calc(25px + 23 * (100vw / 1440));
+    line-height: calc(25px + 23 * (100vw / 1440));
+    text-align: center;
     color: #000000;
 }
 
@@ -105,17 +105,17 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 50px;
-    line-height: 59px;
     margin-top: 10vh;
+    font-size: calc(25px + 20 * (100vw / 1440));
+    line-height: calc(25px + 20 * (100vw / 1440));
 }
 
 .introSubPagesSecondText{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 47px;
+    font-size: calc(25px + 15 * (100vw / 1440));
+    line-height: calc(20px + 15 * (100vw / 1440));
     margin-top: 10vh;
     color: #A2A2A2;
 }
@@ -147,8 +147,8 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 55px;
-    line-height: 64px;
+    font-size: calc(25px + 25 * (100vw / 1440));
+    line-height: calc(25px + 25 * (100vw / 1440));
     color: #FFFFFF;
 }
 
@@ -163,9 +163,31 @@ button {
 }
 
 .verticalLineBlock{
-    border-right: 2px solid #FFFFFF;
-
+   justify-content: center;
 }
+
+.verticalLine{
+    border: 2px solid white;
+    height: 500px;
+}
+
+ .radius {
+    border: 30px solid white;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    top: 1478px;
+    color:#0000000;
+ }
+
+ .lineBlock{
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+ }
 
 .rowBody{
     font-family: 'Roboto';

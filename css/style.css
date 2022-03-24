@@ -125,7 +125,7 @@ button {
     background-color: black;
     height: 100%;
     padding-top: 10vh;
-    padding-bottom: 13vh;
+    padding-bottom: 10vh;
 }
 
 .directionsContainer{
@@ -299,32 +299,32 @@ button {
 
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: calc(25px + 30 * (100vw / 1440));
-    line-height: calc(25px + 30 * (100vw / 1440));
+    font-weight: 500;
+    font-size: calc(25px + 25 * (100vw / 1440));
+    line-height: calc(25px + 25 * (100vw / 1440));
 }
 .LiHeaderText{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: calc(25px + 30 * (100vw / 1440));
-    line-height: calc(20px + 30 * (100vw / 1440));
+    font-size: calc(25px + 25 * (100vw / 1440));
+    line-height: calc(20px + 25 * (100vw / 1440));
 }
 
 .LiCaptionText{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: calc(15px + 30 * (100vw / 1440));
-    line-height: calc(10px + 30 * (100vw / 1440));
+    font-size: calc(15px + 25 * (100vw / 1440));
+    line-height: calc(10px + 25 * (100vw / 1440));
 }
 
 .liMainText{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: calc(15px + 15 * (100vw / 1440));
-    line-height: calc(25px + 25 * (100vw / 1440));
+    font-size: calc(15px + 10 * (100vw / 1440));
+    line-height: calc(25px + 20 * (100vw / 1440));
     margin-top: 10px;
 }
 
