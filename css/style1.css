@@ -56,7 +56,6 @@ button {
 .introSubPages{
     height: 100%;
     background-color: black;
-
 }
 
 .navBar{
@@ -96,9 +95,7 @@ button {
     padding: 0 3% 0 3%;
     height: 100%;
     background-color: #FFFFFF;
-
     padding-bottom: 10vh;
-
 }
 
 .introSubPagesText{
@@ -156,29 +153,43 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: calc(10px + 15 * (100vw / 1440));
+    line-height: calc(10px + 15 * (100vw / 1440));
 
     color: #FFFFFF;
 }
 
 .verticalLineBlock{
-   justify-content: center;
+    position:relative;
+
 }
 
-.verticalLine{
-    border: 2px solid white;
-    height: 500px;
+.circle{
+    position: relative;
+    z-index: 1;
+    border-radius: 100%;
+    width: calc(25px + 10 * (100vw / 1440));
+    height: calc(25px + 10 * (100vw / 1440));
+    max-width: 60px;
 }
 
- .radius {
+.radius {
+    left:50%;
+    height:100%;
     border: 30px solid white;
     border-radius: 100%;
-    width: 60px;
-    height: 60px;
-    top: 1478px;
+    width: calc(25px + 10 * (100vw / 1440));
+    height: calc(25px + 10 * (100vw / 1440));
     color:#0000000;
  }
+
+.verticalLine{
+    position:relative;
+    height:100%;
+    left:50%;
+    border: 2px solid white;
+    height: calc(150px + 80 * (100vw / 1440));
+}
 
  .lineBlock{
     align-items: center;
@@ -193,8 +204,8 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: calc(10px + 15 * (100vw / 1440));
+    line-height: calc(10px + 15 * (100vw / 1440));
     margin-left: 1%;
     color: #FFFFFF;
     padding-left: 4vw;
@@ -210,18 +221,79 @@ button {
 
 /*questionsToStudents section*/
 
-.questionsToStudents{
+/*Блок - копипаст introsubpages (самого верхнего)*/
+
+.interview{
+    height: 100%;
+    background-color: black;
+}
+
+.interviewBlock{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left:3%;
+    padding-right:3%;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding-bottom: 10vh;
+}
+
+.SectionTitleQuestions{
+    margin-top: 10vh;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(20px + 35 * (100vw / 1440));
+    line-height: calc(20px + 35 * (100vw / 1440));
+}
+
+.detailsTitleInterview{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(25px + 25 * (100vw / 1440));
+    line-height: calc(25px + 25 * (100vw / 1440));
+    color: black;
+}
+
+.interviews{
     background-color: black;
     height: 100%;
 }
 
-.questionsToStudentsCon{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    background-color: #FFFFFF;
+.interviewRow{
+    margin-top: 10vh;
+}
+
+.interview-videoBlock{
+    position: relative;
+    width: 847px;
     height: 100%;
 
 }
+
+.interview-video{
+    width: 100%;
+    height: 100%;
+}
+
+.studentPhoto{
+width: 150px;
+height: 150px;
+}
+
+.studentName{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 5%;
+}
+
 
 /*questionsToStudents section end*/
 
