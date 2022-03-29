@@ -414,8 +414,8 @@ details[open] summary:before {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: calc(20px + 15 * (100vw / 1440));
-    line-height: calc(20px + 20 * (100vw / 1440));
+    font-size: calc(15px + 20 * (100vw / 1440));
+    line-height: calc(15px + 25 * (100vw / 1440));
     color: #000000;
     margin-top: 20px;
 }
@@ -441,8 +441,8 @@ details[open] summary:before {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: calc(20px + 28 * (100vw / 1440));
+    line-height: calc(20px + 28 * (100vw / 1440));
 
     color: #FFFFFF;
     text-align: center;
@@ -458,8 +458,8 @@ details[open] summary:before {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 40px;
-    line-height: 47px;
+    font-size: calc(20px + 20 * (100vw / 1440));
+    line-height: calc(20px + 20 * (100vw / 1440));
 
     color: #FFFFFF;
 }
@@ -493,6 +493,31 @@ details[open] summary:before {
 
 .footerIconsRow{
     margin-top: 2vh;
+
+}
+
+.footerIcon{
+
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
+.socialMediaBlock{
+    margin: 5%;
+    text-align: center;
+}
+
+.icon{
+    display: inline-block;
+
+
+}
+
+
+
+.icon.notFirst{
+    margin-left: 1%;
 }
 
 /*footer end*/
@@ -580,5 +605,9 @@ details[open] summary:before {
         height: 100%;
         width: 80%;
         margin: 0 auto;
+    }
+
+    .anotherQuestionsText{
+        text-align: center;
     }
 }
