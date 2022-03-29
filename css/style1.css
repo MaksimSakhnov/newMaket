@@ -63,17 +63,30 @@ button {
     width: 100%;
     background-color: #FFFFFF;
     border-bottom: 1px solid black;
-    height: 90px;
-    padding:  5vh 0 5vh;
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    algin-items: center;
     position: relative;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
 }
 
 .navRow{
-
+    margin-top: auto;
+    vertical-align: middle;
+    height: inherit;
+    display: flex;
+    align-items: center;
 }
 
 .arrowBlock{
     height: 100%;
+    display: block;
+
+
 
 }
 
@@ -81,14 +94,25 @@ button {
 
 }
 
+.navTextCol{
+    padding-top: 0px;
+}
+
 .navText{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
+
     font-size: calc(25px + 23 * (100vw / 1440));
     line-height: calc(25px + 23 * (100vw / 1440));
     text-align: center;
     color: #000000;
+    vertical-align: middle;
+    margin-bottom: 0;
+
+    font-size: calc(20px + 20 * (100vw / 1440));
+    line-height: calc(20px + 20 * (100vw / 1440));
+
 }
 
 
