@@ -184,35 +184,23 @@ button {
 }
 
 .verticalLineBlock{
-    position:relative;
+    justify-content: center;
 
 }
 
 .circle{
-    position: relative;
-    z-index: 1;
-    border-radius: 100%;
-    width: calc(25px + 10 * (100vw / 1440));
-    height: calc(25px + 10 * (100vw / 1440));
-    max-width: 60px;
+    background:white;
+    margin:0 auto;
+    border-radius:50%;
+    width: calc(13px + 15 * (100vw / 1440));
+    height: calc(13px + 15 * (100vw / 1440));
 }
-
-.radius {
-    left:50%;
-    height:100%;
-    border: 30px solid white;
-    border-radius: 100%;
-    width: calc(25px + 10 * (100vw / 1440));
-    height: calc(25px + 10 * (100vw / 1440));
-    color:#0000000;
- }
 
 .verticalLine{
     position:relative;
     height:100%;
-    left:50%;
     border: 2px solid white;
-    height: calc(150px + 80 * (100vw / 1440));
+    margin: 0 auto;
 }
 
  .lineBlock{
