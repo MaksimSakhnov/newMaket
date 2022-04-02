@@ -326,6 +326,25 @@ button {
     font-size: calc(15px + 10 * (100vw / 1440));
     line-height: calc(25px + 20 * (100vw / 1440));
     margin-top: 10px;
+    transform: translate(0px, 0px);
+    opacity: 0;
+    transition: all 1s ease 0s;
+}
+
+.liMainText.visible{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + 10 * (100vw / 1440));
+    line-height: calc(25px + 20 * (100vw / 1440));
+    margin-top: 10px;
+    opacity: 1;
+
+}
+
+.liMainText._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 
@@ -388,8 +407,8 @@ details > summary {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: calc(15px + 25 * (100vw / 1440));
-    line-height: calc(15px + 25 * (100vw / 1440));
+    font-size: calc(13px + 27 * (100vw / 1440));
+    line-height: calc(13px + 27 * (100vw / 1440));
     text-align: left;
     position: relative;
 }
